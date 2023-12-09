@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index",
@@ -21,5 +22,8 @@
   "homepage": "https://github.com/Oleggman/goit-nodejs-hw-01#readme",
   "devDependencies": {
     "nodemon": "^3.0.2"
+  },
+  "dependencies": {
+    "nanoid": "^5.0.4"
   }
 }
